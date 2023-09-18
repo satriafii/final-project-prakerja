@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,94 +8,130 @@
     <script src="script.js"></script>
     <title>Final Project</title>
 </head>
+
 <body>
     <nav id="nav-bar">
-        <div class="logo">Satriafii Portfolio</div>
+        <div class="logo"><a href="https://prakerja.satriafii.social">Satriafii Portfolio</a></div>
         <div>
             <ul class="nav-links">
-                <li><a href="#about">Tentang</a></li>
-                <li><a href="#experience">Pengalaman</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#contact">Kontak</a></li>
+                <li><a href="https://github.com/">Github</a></li>
+                <li><a href="https://x.com/">X</a></li>
+                <li><a href="https://facebook.com/">Facebook</a></li>
+                <li><a href="https://instagram.com/">Instagram</a></li>
                 <li class="mode pas-terang" onclick="setDarkMode(true)">Mode Gelap</li>
                 <li class="mode pas-gelap" onclick="setDarkMode(false)">Mode Terang</li>
             </ul>
         </div>
     </nav>
+
     <section id="profile">
         <div class="img-container">
             <img src="./assets/profile-picture.jpg" alt="Profile Picture">
         </div>
         <div class="about-container">
-            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet tortor in erat consequat, et tempus odio sodales. Vivamus posuere dolor ac mauris tempor suscipit. Sed quis lectus at augue mollis gravida non vehicula orci. Mauris in felis magna. Nunc vel efficitur odio.</p>
-                       <div class="tombol-container">
-                <button class="tombol personal-website" onclick="window.open('https://satriafii.social')">
-                    Blog Pribadi
-                </button>
-                <button class="tombol kontak-saya" onclick="location.href='./#contact'">
-                    Hubungi Saya
-                </button>
+            <p class="about-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                Letraset sheets containing Lorem Ipsum.
+            </p>
+            <div class="tombol-container">
+                <a href="http://satriafii.social">
+                    <button class="tombol personal-website" target="_black">
+                        Blog Pribadi
+                    </button>
+                </a>
+                <a href="./kontak.html" target="_blank">
+                    <button class="tombol kontak-saya">
+                        Hubungi Saya
+                    </button>
+                </a>
             </div>
         </div>
     </section>
+
     <section id="detail">
         <div class="education box-container">
             <h2 class="title">Pendidikan</h2>
+            <br>
             <ol>
-                <li>Sekolah dasar</li>
-                <li>Sekolah Menengah Pertama</li>
-                <li>Sekolah Menengah Atas</li>
-                <li>Sarjana Pertanian</li>
+                <li>SDN 1 Pedes</li>
+                <br>
+                <li>SMPN 1 Sedayu</li>
+                <br>
+                <li>SMAN 1 Sleman</li>
+                <br>
+                <li>Sosial Ekonomi Pertanian UGM</li>
             </ol>
         </div>
                <div class="experience box-container">
             <h2 class="title">Pengalaman</h2>
+            <br>
             <ol>
-                <li>Disini</li>
-                <li>Disana</li>
-                <li>Dimana</li>
-                <li>Dimini</li>
+                <li>Virtual Assistant</li>
+                <br>
+                <li>General Secretary</li>
+                <br>
+                <li>Data Entry Clerk</li>
+                <br>
+                <li>Hugo Site Generator</li>
             </ol>
         </div>
         <div class="award box-container">
             <h2 class="title">Penghargaan</h2>
+            <br>
             <ol>
-                <li>Ini</li>
-                <li>Itu</li>
-                <li>Senang</li>
-                <li>Sekali</li>
+                <li>Google Sheet Certification</li>
+                <br>
+                <li>Free Code Camp Certification</li>
+                <br>
+                <li>Data Entry Certification</li>
+                <br>
+                <li>Web Development Certification</li>
             </ol>
         </div>
         <div class="project box-container">
             <h2 class="title">Project</h2>
+            <br>
             <ol>
-                <li>Sekolah dasar</li>
-                <li>Sekolah Menengah Pertama</li>
-                <li>Sekolah Menengah Atas</li>
-                <li>Sarjana Pertanian</li>
+                <li>Personal Website</li>
+                <br>
+                <li>Form Kontak</li>
+                <br>
+                <li>Simple Buttons</li>
+                <br>
+                <li>CSS Cat</li>
             </ol>
         </div>
         <div class="skill box-container">
             <h2 class="title">Interest</h2>
+            <br>
             <ol>
-                <li>Disini</li>
-                <li>Disana</li>
-                <li>Dimana</li>
-                <li>Dimini</li>
+                <li>HTML</li>
+                <br>
+                <li>CSS</li>
+                <br>
+                <li>Javascript</li>
+                <br>
+                <li>Hugo</li>
             </ol>
         </div>
         <div class="interest box-container">
             <h2 class="title">Skill</h2>
+            <br>
             <ol>
-                <li>Ini</li>
-                <li>Itu</li>
-                <li>Senang</li>
-                <li>Sekali</li>
+                <li>HTML</li>
+                <br>
+                <li>CSS</li>
+                <br>
+                <li>Javascript</li>
+                <br>
+                <li>Markdown</li>
             </ol>
         </div>
     </section>
 </body>
+
 <footer>
     <p>Dibuat oleh C.S.Satriafi menggunakan HTML, CSS, dan JS</p>
 </footer>
+
 </html>
