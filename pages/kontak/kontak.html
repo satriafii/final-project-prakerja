@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Final Project</title>
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <div class="logo"><a href="https://prakerja.satriafii.social">Satriafii Portfolio</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="https://github.com/">Github</a></li>
+                <li><a href="https://x.com/">X</a></li>
+                <li><a href="https://facebook.com/">Facebook</a></li>
+                <li><a href="https://instagram.com/">Instagram</a></li>
+                <li class="mode pas-terang" onclick="setDarkMode(true)">Mode Gelap</li>
+                <li class="mode pas-gelap" onclick="setDarkMode(false)">Mode Terang</li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        function setDarkMode(isDark) {
+            if(isDark) {
+                document.body.setAttribute('id', 'darkmode')
+            } else {
+                document.body.setAttribute('id', '')
+            }
+        }
+    </script>
+
+    <section id="opening">
+        <h1>Selamat datang, ada yang bisa dibantu?</h1>
+        <p>Silakan tulis pesan untuk dapat mengontak saya melalui halaman ini.</p>
+        <p><i>Halaman ini saya buat sebagai latihan HTML, CSS, dan Javascript sederhana, tidak ada data yang dikumpulkan dari halaman ini.</i></p>
+    </section>
+
+    <section id="form">
+        <form>
+            <label for="name">
+                Nama: <input type="text" name="nama" id="name" placeholder="Tulis nama anda..." required>
+            </label>
+            <br>
+            <label for="email">
+                Email: <input type="email" name="email" id="email" placeholder="Tulis email anda..." required>
+            </label>
+            <br>
+            <label for="pesan">
+                Pesan: <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Tulis pesan anda..."></textarea>
+            </label>
+            <br>
+            <button type="submit">Kirim!</button>
+        </form>
+    </section>
+
+<footer>
+    <p>Dibuat oleh C.S.Satriafi menggunakan HTML, CSS, dan JS</p>
+</footer>
+
+</html>

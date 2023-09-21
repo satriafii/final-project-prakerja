@@ -117,6 +117,10 @@ section {
     margin-bottom: 1rem;
 }
 
+.tombol:hover {
+    cursor: pointer;
+}
+
 #detail {
     display: grid;
    	grid-template-columns: repeat(3, 1fr);
@@ -126,7 +130,6 @@ section {
 
 #detail a {
     text-decoration: none;
-    color: #222222;
 }
 
 ol {
@@ -181,7 +184,7 @@ a:hover {
 }
 
 .personal-website {
-    background-color: #dadada;
+    background-color: #fcfcfc;
     border: solid #222222 2px;
 }
 
@@ -204,6 +207,10 @@ a:hover {
 
 .title:hover {
     color: #8b6cef;
+}
+
+#detail a {
+    color: #222222;
 }
 
 /* Settingan Mode Gelap */
@@ -281,4 +288,8 @@ a:hover {
 #darkmode .box-container:hover {
     border: solid #8b6cef 2px;
     border-radius: 0.5rem;
+}
+
+#darkmode #detail a {
+    color: #dadada;
 }

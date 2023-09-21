@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Final Project</title>
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <div class="logo"><a href="https://prakerja.satriafii.social">Satriafii Portfolio</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="https://github.com/">Github</a></li>
+                <li><a href="https://x.com/">X</a></li>
+                <li><a href="https://facebook.com/">Facebook</a></li>
+                <li><a href="https://instagram.com/">Instagram</a></li>
+                <li class="mode pas-terang" onclick="setDarkMode(true)">Mode Gelap</li>
+                <li class="mode pas-gelap" onclick="setDarkMode(false)">Mode Terang</li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        function setDarkMode(isDark) {
+            if(isDark) {
+                document.body.setAttribute('id', 'darkmode')
+            } else {
+                document.body.setAttribute('id', '')
+            }
+        }
+    </script>
+
+    <div class="timeline">
+        <ul>
+            <li>
+                <div class="content">
+                    <h3>Google Sheet Certification</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum architecto corporis aspernatur veritatis. Dolorem temporibus consectetur quo eveniet error ea fugiat obcaecati, quam laborum eaque. Earum exercitationem assumenda possimus eos.</p>
+                </div>
+                <div class="time">
+                    <h4>2019</h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <h3>Free Code Camp Certification</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum architecto corporis aspernatur veritatis. Dolorem temporibus consectetur quo eveniet error ea fugiat obcaecati, quam laborum eaque. Earum exercitationem assumenda possimus eos.</p>
+                </div>
+                <div class="time">
+                    <h4>2020</h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <h3>Data Entry Certification</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum architecto corporis aspernatur veritatis. Dolorem temporibus consectetur quo eveniet error ea fugiat obcaecati, quam laborum eaque. Earum exercitationem assumenda possimus eos.</p>
+                </div>
+                <div class="time">
+                    <h4>2021</h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <h3>Web Development Certification</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum architecto corporis aspernatur veritatis. Dolorem temporibus consectetur quo eveniet error ea fugiat obcaecati, quam laborum eaque. Earum exercitationem assumenda possimus eos.</p>
+                </div>
+                <div class="time">
+                    <h4>2022</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+<footer>
+    <p>Dibuat oleh C.S.Satriafi menggunakan HTML, CSS, dan JS</p>
+</footer>
+
+</html>

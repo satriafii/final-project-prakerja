@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Final Project</title>
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <div class="logo"><a href="https://prakerja.satriafii.social">Satriafii Portfolio</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="https://github.com/">Github</a></li>
+                <li><a href="https://x.com/">X</a></li>
+                <li><a href="https://facebook.com/">Facebook</a></li>
+                <li><a href="https://instagram.com/">Instagram</a></li>
+                <li class="mode pas-terang" onclick="setDarkMode(true)">Mode Gelap</li>
+                <li class="mode pas-gelap" onclick="setDarkMode(false)">Mode Terang</li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        function setDarkMode(isDark) {
+            if(isDark) {
+                document.body.setAttribute('id', 'darkmode')
+            } else {
+                document.body.setAttribute('id', '')
+            }
+        }
+    </script>
+
+   <section id="cards">
+    <div class="card-container">
+        <div class="title">
+            <h2>Project 1</h2>
+        </div>
+        <div class="img">
+            <img src="" alt="Gambar Project Saya">
+        </div>
+        <div class="description">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam temporibus laboriosam possimus, illum.</p>
+        </div>
+        <div class="more">
+            <button>Visit Project</button>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="title">
+            <h2>Project 2</h2>
+        </div>
+        <div class="img">
+            <img src="" alt="Gambar Project Saya">
+        </div>
+        <div class="description">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam temporibus laboriosam possimus, illum.</p>
+        </div>
+        <div class="more">
+            <button>Visit Project</button>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="title">
+            <h2>Project 3</h2>
+        </div>
+        <div class="img">
+            <img src="" alt="Gambar Project Saya">
+        </div>
+        <div class="description">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam temporibus laboriosam possimus, illum.</p>
+        </div>
+        <div class="more">
+            <button>Visit Project</button>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="title">
+            <h2>Project 4</h2>
+        </div>
+        <div class="img">
+            <img src="" alt="Gambar Project Saya">
+        </div>
+        <div class="description">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam temporibus laboriosam possimus, illum.</p>
+        </div>
+        <div class="more">
+            <button>Visit Project</button>
+        </div>
+    </div>
+   </section>
+
+<footer>
+    <p>Dibuat oleh C.S.Satriafi menggunakan HTML, CSS, dan JS</p>
+</footer>
+
+</html>
