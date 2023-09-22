@@ -67,7 +67,52 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.card-container {
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 400px;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container:hover {
+    cursor: pointer;
+}
+
+.title, .img, .description, .more {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.img img {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.more button {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #8b6cef;
+    border: solid 2px #8b6cef;
+}
+
+.more button:hover {
+    cursor: pointer;
 }
 
 /* Footer */
@@ -76,6 +121,10 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 0.5vh;
+}
+
+footer p {
+    text-align: center;
 }
 
 /* Settingan Mode Terang */
@@ -88,6 +137,21 @@ a:hover {
     color: #8b6cef;
 }
 
+.title:hover {
+    color: #8b6cef;
+}
+
+.card-container:hover {
+    border: solid 2px #8b6cef;
+}
+
+.img img:hover {
+    border: solid 2px #8b6cef;
+}
+
+.more button:hover {
+    box-shadow: 0 3px 0 #dadada;
+}
 
 /* Settingan Mode Gelap */
 

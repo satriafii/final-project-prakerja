@@ -62,6 +62,40 @@ a:hover {
 
 /* Tambah general rule disini */
 
+#cards {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.card-container {
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 400px;
+    width: 400px;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container:hover {
+    cursor: pointer;
+}
+
+.title, .description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.title:hover {
+    cursor: pointer;
+}
 
 /* Footer */
 
@@ -69,6 +103,10 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 0.5vh;
+}
+
+footer p {
+    text-align: center;
 }
 
 /* Settingan Mode Terang */
@@ -81,6 +119,13 @@ a:hover {
     color: #8b6cef;
 }
 
+.title:hover {
+    color: #8b6cef;
+}
+
+.card-container:hover {
+    border: solid 2px #8b6cef;
+}
 
 /* Settingan Mode Gelap */
 
